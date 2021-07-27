@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">蓝牙指纹读头</string>
+
+    <string name="action_linkdevice">连接设备</string>
+    <string name="action_about">关于</string>
+
+    <string name="btn_test">蓝牙指纹读头测试</string>
+
+    <string name="linkdevice">连接设备</string>
+    <string name="closedevice">关闭设备</string>
+    <string name="getver">获取版本</string>
+    <string name="setpin">验证PIN码</string>
+    <string name="getdevsn">设备序列号</string>
+    <string name="getbat">设备电量</string>
+
+    <string name="EnrolNoImage">登记指纹模板(不显示图像)</string>
+    <string name="CaptureNoImage">采集指纹模板(不显示图像)然后比对</string>
+    <string name="EnrolWithImage">登记指纹模板(显示图像)</string>
+    <string name="CaptureWithImage">采集指纹模板(显示图像)然后比对</string>
+
+    <string name="txt_placefinger2">请按手指(两次) &#8230;</string>
+    <string name="txt_placefinger1">请按手指 &#8230;</string>
+
+    <string name="txt_permissionfail">获取权限失败</string>
+    <string name="txt_connectedto">连接到</string>
+    <string name="txt_devicetype">设备类型:</string>
+    <string name="txt_devicever">设备版本:</string>
+    <string name="txt_devicesensor">传感器类型:</string>
+    <string name="txt_devicesn">设备序列号:</string>
+    <string name="txt_getsnfail">获取设备序列号失败</string>
+    <string name="txt_getdevicefail">获取设备参数/类型失败</string>
+
+    <string name="txt_pinok">验证PIN码成功!</string>
+    <string name="txt_pinfail">验证PIN码失败!</string>
+    <string name="txt_autosetpin">自动验证验证PIN码</string>
+    <string name="txt_usepin">使用PIN码,请验证PIN码</string>
+    <string name="txt_notusepin">不使用PIN码</string>
+
+    <string name="txt_getimageok">获取图像成功</string>
+    <string name="txt_getimagefail">获取图像失败</string>
+    <string name="txt_enrolok">登记特征点模板成功</string>
+    <string name="txt_enrolfail">登记特征点模板失败</string>
+    <string name="txt_captureok">采集特征点模板成功</string>
+    <string name="txt_capturefail">采集特征点模板失败</string>
+    <string name="txt_matchscore">比对分数:</string>
+
+    <string name="txt_batval">电池电压(低电量小于3.6V):</string>
+    <string name="txt_getbatvalfail">获取电池电压失败</string>
+
+    <string name="txt_closeok">关闭设备成功</string>
+    <string name="txt_closefail">关闭设备失败</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">发送</string>
+    <string name="not_connected">没有连接到蓝牙设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙未启用,退出</string>
+    <string name="title_connecting">连接中 &#8230;</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">没有连接</string>
+    <string name="title_unable_connected">无法连接设备</string>
+    <string name="title_lost_connected">设备连接丢失</string>
+
+    <!--  BluetoothDeviceListActivity -->
+    <string name="scanning">扫描蓝牙设备中...</string>
+    <string name="select_device">选择一个设备,然后连接</string>
+    <string name="none_paired">没有设备配对</string>
+    <string name="none_found">没有发现设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">扫描设备</string>
+
+    <string name="txt_link">深圳市星高科技发展有限公司\nhttp://www.starhightech.com</string>
+
+</resources>

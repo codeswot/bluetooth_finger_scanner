@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Bluetooth Reader</string>
+
+    <string name="action_linkdevice">Link Device</string>
+    <string name="action_about">About</string>
+
+    <string name="btn_test">Bluetooth Fingerprint Reader Test</string>
+
+    <string name="linkdevice">Link Device</string>
+    <string name="closedevice">Close Device</string>
+    <string name="getver">Get Version</string>
+    <string name="setpin">Verify PIN</string>
+    <string name="getdevsn">Device SN</string>
+    <string name="getbat">Battery Value</string>
+
+    <string name="EnrolNoImage">Enrol Template(No Image)</string>
+    <string name="CaptureNoImage">Capture Template(No Image) and Match</string>
+    <string name="EnrolWithImage">Enrol Template(With Image)</string>
+    <string name="CaptureWithImage">Capture Template(With Image) and Match</string>
+
+    <string name="txt_placefinger2">Place Finger (Twice) &#8230;</string>
+    <string name="txt_placefinger1">Place Finger &#8230;</string>
+
+    <string name="txt_permissionfail">Permission Fail</string>
+    <string name="txt_connectedto">Connected to</string>
+    <string name="txt_devicetype">Device Type:</string>
+    <string name="txt_devicever">Device Version:</string>
+    <string name="txt_devicesensor">Device Sensor:</string>
+    <string name="txt_devicesn">Device SN:</string>
+    <string name="txt_getsnfail">Get SN Fail</string>
+    <string name="txt_getdevicefail">Get Device Info/Type Fail</string>
+
+    <string name="txt_pinok">PIN OK!</string>
+    <string name="txt_pinfail">PIN Fail</string>
+    <string name="txt_autosetpin">Auto Verify PIN Code</string>
+    <string name="txt_usepin">Use PIN Code,Please Verify PIN</string>
+    <string name="txt_notusepin">Not Use PIN Code</string>
+
+    <string name="txt_getimageok">Get Image OK</string>
+    <string name="txt_getimagefail">Get Image Fail</string>
+    <string name="txt_enrolok">Enrol Data Succeed</string>
+    <string name="txt_enrolfail">Enrol Data Fail</string>
+    <string name="txt_captureok">Capture Data Succeed</string>
+    <string name="txt_capturefail">Capture Data Fail</string>
+    <string name="txt_matchscore">Match Score:</string>
+
+    <string name="txt_batval">Battery Value:</string>
+    <string name="txt_getbatvalfail">Get Battery Value Fail</string>
+
+    <string name="txt_closeok">Shutdown Device Succeed</string>
+    <string name="txt_closefail">Shutdown Device  Fail</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving.</string>
+    <string name="title_connecting">Connecting &#8230;</string>
+    <string name="title_connected_to">Connected: </string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="title_unable_connected">Unable to connect device</string>
+    <string name="title_lost_connected">Device connection was lost</string>
+
+
+    <!--  BluetoothDeviceListActivity -->
+    <string name="scanning">Scanning for devices &#8230;</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <string name="txt_link">LIROX FINGERPRINT\nhttp://www.liroxtech.com</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/not_connected"
+        android:textAlignment="center"
+        tools:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#E7E5E5">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="128dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEnrolNoImage"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/EnrolNoImage"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnCaptureNoImage"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/CaptureNoImage"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEnrolWithImage"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="@string/EnrolWithImage"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnCaptureWithImage"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="@string/CaptureWithImage"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPIN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSetPIN"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="@string/setpin"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnGetBatVal"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="@string/getbat"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnGetSN"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="@string/getdevsn"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnCloseDevice"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="@string/closedevice"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
